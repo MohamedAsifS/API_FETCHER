@@ -5,9 +5,9 @@ app = Flask(__name__)
 # API keys dictionary
 api_key = {
     "pixabay": "46218998-2ceeb9224ed3548d2618c757f",
-    "pexels": "3CAbImegKz2Rb9YhSfOpJ9fLNHRG3x25C5idvisk2otyUbURHiSX1KVQ",
-    "unsplash": "6ieqbTayrqHcy9TnGDjG9FIaN3DKid-vT60oj1_klOk",
-    "arun":"computer"
+    "secunsplash": "vbVL2Y7Uqq6_dlech1Uuo8DlzjwUZ_dFUAE_ORNRhHY",
+    "unsplash": "6ieqbTayrqHcy9TnGDjG9FIaN3DKid-vT60oj1_klOk"
+   
 }
 
 @app.route('/api', methods=['GET'])
